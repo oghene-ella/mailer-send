@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-size: 50px;
+    border: 1px solid royalblue;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+p{
+    font-size: 25px;
+    border:1px sandybrown;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    width: 80vw;
+    margin: 0 auto;
+}
