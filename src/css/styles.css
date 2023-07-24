@@ -150,6 +150,7 @@
     padding: 100px 0px;
     background-color: white;
     border-radius: 40px 40px 0px 0px;
+    border:0.5px solid rgba(128, 128, 128, 0.138);
     position: relative;
 }
 
@@ -190,7 +191,31 @@
 
 /* the must reads books */
 .main-body .must-read .must-read-books{
-    width: 90vw;
+    width: 100%;
     border: 2px solid blue;
-    height: 50vh;
+    height: fit-content;
+    display: flex;
+    gap: 25px;
+    /* flex-wrap: wrap; */
+}
+.main-body .must-read .must-read-books .book1,
+.main-body .must-read .must-read-books .book2,
+.main-body .must-read .must-read-books .book3{
+    border: 1px solid pink;
+    width: 31.8%;
+    height: 70vh;
+    border-radius: 10px;
+}
+.main-body .must-read .must-read-books .book1 .top{
+    width: 100%;
+    /* border:1px solid red; */
+    height: 60%;
+    border-radius: 10px 10px 0px 0px;
+}
+.main-body .must-read .must-read-books .book1 .bottom {
+    width: 100%;
+    /* border: 1px solid rgb(0, 255, 60); */
+    height: 40%;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #F6F6F6;
 }
