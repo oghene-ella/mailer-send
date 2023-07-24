@@ -20,6 +20,28 @@
     /* border: 1px solid blue; */
 }
 
+/* body wrapper */
+.body_wrapper .main-body{
+    width: 100%;
+    background: #F6F6F6;
+    /* border: 1px solid green; */
+}
+
+.body_wrapper .main-body .hero-background {
+    /* border:2px solid red; */
+    width: 70%;
+    height: 100%;
+    background-image: url('../assets/backround-blur.svg');
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 3% 30%;
+    left: 10%;
+    top: 20%;
+    transform: rotate(94deg);
+}
+
+
 /* navbar */
 .body_wrapper .nav-header .navbar{
     width: 90%;
@@ -60,7 +82,7 @@
 
 /* hero section */
 .body_wrapper .hero-section{
-    background: #F6F6F6;
+    /* background: #F6F6F6; */
     /* border: 1px solid rgb(14, 0, 9); */
     width: 100%;
     height: 125vh;
@@ -68,20 +90,6 @@
     display: flex;
     align-items: center;
 
-}
-.body_wrapper .hero-section .hero-background{
-    /* border:2px solid red; */
-    width: 80%;
-    height: 96%;
-    background-image: url('../assets/backround-blur.svg');
-    position: absolute;
-    /* left: 5%; */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:3% 30%;
-    display: flex;
-    transform: rotate(99deg);
-    align-items: center;
 }
 
 .hero-section .hero-content{
@@ -132,4 +140,57 @@
     0px 69px 28px 0px rgba(59, 57, 147, 0.01), 
     0px 108px 30px 0px rgba(59, 57, 147, 0.00);
     margin-top: 10px;
+}
+
+/* must read section */
+
+/* read wrapper */
+.main-body .read-wrapper{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: white;
+    border-radius: 40px 40px 0px 0px;
+    position: relative;
+}
+
+/* header section */
+.main-body .must-read {
+    width: 90vw;
+    border: 2px solid red;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.main-body .must-read header{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.main-body .must-read header section{
+    display: flex;
+    justify-content: center;
+}
+.main-body .must-read header section h1{
+    font-size: 50px;
+    color: #1D2939;
+    font-size: 50px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bolder;
+    /* border: 2px solid rgb(0, 102, 255); */
+}
+.main-body .must-read header section img{
+    width: 35px;
+    height: fit-content;
+    /* border: 2px solid red; */
+}
+
+/* the must reads books */
+.main-body .must-read .must-read-books{
+    width: 90vw;
+    border: 2px solid blue;
+    height: 50vh;
 }
