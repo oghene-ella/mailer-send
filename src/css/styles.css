@@ -93,7 +93,7 @@
     margin: auto;
     gap: 40px;
 }
-.hero-section .hero-content span{
+.hero-section .hero-content section{
     width: 100%;
     /* border: 2px solid rgb(157, 255, 0); */
     display: flex;
@@ -101,24 +101,24 @@
     align-items: center;
     gap: 15px;
 }
-.hero-section .hero-content span h1{
+.hero-section .hero-content section h1{
     color: #1D2939;
     font-size: 85px;
     font-family: 'Plus Jakarta Sans', sans-serif;
     text-align: center;
 }
-.hero-section .hero-content span h1 b{
+.hero-section .hero-content section h1 b{
     background: linear-gradient(to right, #4e48e0 38% 76%, #5bc4cd 100% 76%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;    
 }
-.hero-section .hero-content span p{
+.hero-section .hero-content section p{
     text-align: center;
     color: #1D2939;
     font-size: 16px;
     line-height: 1.5rem;
 }
-.hero-section .hero-content span button {
+.hero-section .hero-content section button {
     color: white;
     border: none;
     border-radius: 30px;
