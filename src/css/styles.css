@@ -211,42 +211,32 @@
     height: 65vh;
     border-radius: 10px;
 }
-.main-body .must-read .must-read-books .book1 .top {
-    width: 100%;
-    /* border:1px solid red; */
-    height: 60%;
-    background-color: #FFFCD4;
-    border-radius: 10px 10px 0px 0px;
-    display: flex;
-    justify-content: center; 
-}
-.main-body .must-read .must-read-books .book2 .top {
-    width: 100%;
-    /* border:1px solid red; */
-    height: 60%;
-    background-color: #FFEBEC;
-    border-radius: 10px 10px 0px 0px;
-    display: flex;
-    justify-content: center;
-}
+
+.main-body .must-read .must-read-books .book1 .top,
+.main-body .must-read .must-read-books .book2 .top,
 .main-body .must-read .must-read-books .book3 .top {
     width: 100%;
     /* border:1px solid red; */
     height: 60%;
-    background-color: #ffffff;
+    /* background-color: #FFEBEC; */
     border-radius: 10px 10px 0px 0px;
     display: flex;
     justify-content: center;
 }
-
 .main-body .must-read .must-read-books .book1 .top .top_book1,
+.main-body .must-read .must-read-books .book2 .top .top_book2,
+.main-body .must-read .must-read-books .book3 .top .top_book3 {
+    width: 100%;
+    height: 100%;
+}
+/* .main-body .must-read .must-read-books .book1 .top .top_book1,
 .main-body .must-read .must-read-books .book2 .top .top_book2,
 .main-body .must-read .must-read-books .book3 .top .top_book3{
     align-self: flex-end;
     width: 60%;
     height: 85%;
     
-}
+} */
 
  /* books bottom */
 .main-body .must-read .must-read-books .book1 .bottom,
