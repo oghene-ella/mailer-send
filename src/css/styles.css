@@ -111,7 +111,7 @@
 }
 .hero-section .hero-content section h1{
     color: #1D2939;
-    font-size: 122px;
+    font-size: 119px;
     font-family: 'Plus Jakarta Sans', sans-serif;
     letter-spacing: 4px;
     text-align: center;
@@ -200,7 +200,8 @@
     height: fit-content;
     display: flex;
     gap: 25px;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .main-body .must-read .must-read-books .book1,
 .main-body .must-read .must-read-books .book2,
@@ -247,6 +248,7 @@
     
 }
 
+ /* books bottom */
 .main-body .must-read .must-read-books .book1 .bottom,
 .main-body .must-read .must-read-books .book2 .bottom,
 .main-body .must-read .must-read-books .book3 .bottom {
@@ -255,4 +257,76 @@
     height: 40%;
     border-radius: 0px 0px 10px 10px;
     background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+}
+.main-body .must-read .must-read-books .book1 .bottom header,
+.main-body .must-read .must-read-books .book1 .bottom .book1-content,
+.main-body .must-read .must-read-books .book1 .bottom button,
+.main-body .must-read .must-read-books .book2 .bottom header,
+.main-body .must-read .must-read-books .book2 .bottom .book2-content,
+.main-body .must-read .must-read-books .book2 .bottom button,
+.main-body .must-read .must-read-books .book3 .bottom header,
+.main-body .must-read .must-read-books .book3 .bottom .book3-content,
+.main-body .must-read .must-read-books .book3 .bottom button{
+    height: 34.5%;
+    /* border: 1px solid black; */
+    /* padding: 20px; */
+}
+.main-body .must-read .must-read-books .book1 .bottom header h1,
+.main-body .must-read .must-read-books .book2 .bottom header h1,
+.main-body .must-read .must-read-books .book3 .bottom header h1{
+    font-size: 21px;
+    color: #344054;
+    text-transform: capitalize;
+    margin: auto 0;
+}
+
+.main-body .must-read .must-read-books .book1 .bottom .book1-content,
+.main-body .must-read .must-read-books .book2 .bottom .book2-content,
+.main-body .must-read .must-read-books .book3 .bottom .book3-content{
+    height: 31%;
+    border-block: 0.5px solid #E7E7E7;
+}
+
+.main-body .must-read .must-read-books .book1 .bottom .book1-content section,
+.main-body .must-read .must-read-books .book2 .bottom .book2-content section,
+.main-body .must-read .must-read-books .book3 .bottom .book3-content section{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #1D2939;
+    font-size: 15px;
+    align-items: center;
+    /* border: 1px solid rgb(248, 63, 63); */
+}
+.main-body .must-read .must-read-books .book1 .bottom .book1-content section p:last-child b,
+.main-body .must-read .must-read-books .book2 .bottom .book2-content section p:last-child b,
+.main-body .must-read .must-read-books .book3 .bottom .book3-content section p:last-child b{
+    font-size: 19px;
+}
+
+.main-body .must-read .must-read-books .book1 .bottom button,
+.main-body .must-read .must-read-books .book2 .bottom button,
+.main-body .must-read .must-read-books .book3 .bottom button{
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #F6F6F6;
+    color:#4E48E0;
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.main-body .must-read .must-read-books .book1 .bottom button:hover,
+.main-body .must-read .must-read-books .book2 .bottom button:hover,
+.main-body .must-read .must-read-books .book3 .bottom button:hover {
+    color: #F6F6F6;
+    background-color: #908cff;
+}
+
+.main-body .must-read .must-read-books .book1 .bottom button:focus,
+.main-body .must-read .must-read-books .book2 .bottom button:focus,
+.main-body .must-read .must-read-books .book3 .bottom button:focus {
+    color: #F6F6F6;
+    background-color: #4E48E0;
 }
