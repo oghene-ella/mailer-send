@@ -82,7 +82,6 @@
 
 /* hero section */
 .body_wrapper .hero-section{
-    /* background: #F6F6F6; */
     /* border: 1px solid rgb(14, 0, 9); */
     width: 100%;
     height: 120vh;
@@ -210,6 +209,7 @@
     width: 31.8%;
     height: 65vh;
     border-radius: 10px;
+    background-color: #F6F6F6;
 }
 
 .main-body .must-read .must-read-books .book1 .top,
@@ -218,7 +218,6 @@
     width: 100%;
     /* border:1px solid red; */
     height: 60%;
-    /* background-color: #FFEBEC; */
     border-radius: 10px 10px 0px 0px;
     display: flex;
     justify-content: center;
@@ -229,14 +228,6 @@
     width: 100%;
     height: 100%;
 }
-/* .main-body .must-read .must-read-books .book1 .top .top_book1,
-.main-body .must-read .must-read-books .book2 .top .top_book2,
-.main-body .must-read .must-read-books .book3 .top .top_book3{
-    align-self: flex-end;
-    width: 60%;
-    height: 85%;
-    
-} */
 
  /* books bottom */
 .main-body .must-read .must-read-books .book1 .bottom,
@@ -261,7 +252,6 @@
 .main-body .must-read .must-read-books .book3 .bottom button{
     height: 34.5%;
     /* border: 1px solid black; */
-    /* padding: 20px; */
 }
 .main-body .must-read .must-read-books .book1 .bottom header h1,
 .main-body .must-read .must-read-books .book2 .bottom header h1,
@@ -276,7 +266,7 @@
 .main-body .must-read .must-read-books .book2 .bottom .book2-content,
 .main-body .must-read .must-read-books .book3 .bottom .book3-content{
     height: 31%;
-    border-block: 0.5px solid #E7E7E7;
+    border-block: 0.5px solid #D0D5DD;
 }
 
 .main-body .must-read .must-read-books .book1 .bottom .book1-content section,
@@ -326,7 +316,7 @@
     /* border: 2px solid darkorchid; */
     width: 100%;
     height: 100vh;
-    padding: 20px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -347,7 +337,7 @@
 
 .main-body .reviews header {
     position: relative;
-    /* border: 2px solid red; */
+        /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     gap: 14px;
@@ -365,6 +355,54 @@
 .main-body .reviews .reviews_body{
     position: relative;
     border: 2px solid orange;
-    height: 60vh;
-    width: 90%;
+    height: 40vh;
+    width: 93%;
+}
+.main-body .reviews .reviews_body .article1{
+    width: 31%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 5px solid red;
+    border-radius: 10px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.main-body .reviews .reviews_body .article1 header img{
+    width: 30%;
+}
+.main-body .reviews .reviews_body .article1 p{
+    font-size: 16px;
+}
+.main-body .reviews .reviews_body .article1 .review-profile{
+    width: 100%;
+    display: flex;
+    /* align-items: center; 
+    justify-content: flex-start; */
+    /* border: 2px solid blue; */
+    gap: 12px;
+}
+.main-body .reviews .reviews_body .article1 .review-profile img{
+    width: 60px;
+    height: 60px;
+}
+
+.main-body .reviews .reviews_body .article1 .review-profile .article1_header {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    gap: 5px;
+    margin: auto 0;
+}
+.main-body .reviews .reviews_body .article1 .review-profile .article1_header h2{
+    font-size: 15px;
+    /* border: 2px solid red; */
+}
+.main-body .reviews .reviews_body .article1 .review-profile .article1_header p{
+    font-size: 13px;
+    /* border: 2px solid purple; */
 }
